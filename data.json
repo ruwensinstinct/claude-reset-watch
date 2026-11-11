@@ -356,6 +356,15 @@
       "type": "Unabhängige Release-Übersicht",
       "checked": "2026-11-11",
       "note": "Kadenz nur als Kontext, nicht als belastbarer Terminplan."
+    },
+    {
+      "id": "channel",
+      "title": "Anthropic über den eigenen ClaudeDevs-Kanal",
+      "url": "https://www.anthropic.com/research/april-23-postmortem",
+      "publisher": "Anthropic",
+      "type": "Offizielle Kanalzuordnung",
+      "checked": "2026-11-11",
+      "note": "Anthropic schreibt ausdrücklich, @ClaudeDevs auf X eingerichtet zu haben. Die Zuordnung beruht nicht nur auf einem Profilnamen oder Verifizierungsabzeichen."
     }
   ],
   "analyses": [
@@ -373,7 +382,8 @@
         "digest",
         "report",
         "cadence",
-        "sep1"
+        "sep1",
+        "channel"
       ]
     }
   ]
