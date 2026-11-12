@@ -1,390 +1,431 @@
 {
-  "schema_version": 1,
-  "as_of": "2026-11-11T15:44:14+01:00",
-  "timezone": "Europe/Berlin",
-  "forecast": {
-    "label": "Offen. Nicht seriös bezifferbar.",
-    "text": "Für einen NEUEN zusätzlichen Reset noch heute haben die geprüften Quellen keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Ein bereits angekündigter Reset ist verfügbar für berechtigte, noch nicht eingelöste Konten. Das ist keine Prognose für einen weiteren Reset.",
-    "release": "Kein nächster Modelltermin bestätigt.",
-    "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart ist Fable 5.2 / Mythos 5.2 vom 9. November 2026. Release-Abstände sind unregelmäßig. Aus zwei Tagen seit diesem Start folgt weder ein naher weiterer Start noch ein Reset-Termin.",
-    "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
+ "schema_version": 1,
+ "as_of": "2026-11-12T10:52:21+01:00",
+ "timezone": "Europe/Berlin",
+ "forecast": {
+  "label": "Offen. Nicht seriös bezifferbar.",
+  "text": "Für einen NEUEN zusätzlichen Reset haben die geprüften Quellen auch bei der Tagesprüfung vom 12.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Ein bereits angekündigter Reset ist verfügbar für berechtigte, noch nicht eingelöste Konten. Das ist keine Prognose für einen weiteren Reset.",
+  "release": "Kein nächster Modelltermin bestätigt.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart ist Fable 5.2 / Mythos 5.2 vom 9. November 2026. Release-Abstände sind unregelmäßig. Aus drei Tagen seit diesem Start folgt weder ein naher weiterer Start noch ein Reset-Termin.",
+  "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
+ },
+ "offers": [
+  {
+   "title": "Full Reset",
+   "label": "Alle Modelle · alle Limits",
+   "scope": "Pro · Max · Ultra · Team",
+   "announced": "2026-11-10",
+   "expires": "2026-12-10T14:00:00-08:00",
+   "deadline": "10. Dezember 2026 · 23:00 Uhr Berlin",
+   "text": "Ein zusätzlicher vollständiger Reset. Laut ClaudeDevs für die genannten zahlenden Tarife bereitgestellt. Ob dein Konto ihn noch unbenutzt hat, siehst du nur in deinen Nutzungseinstellungen.",
+   "sources": [
+    "full",
+    "help"
+   ]
   },
-  "offers": [
-    {
-      "title": "Full Reset",
-      "label": "Alle Modelle · alle Limits",
-      "scope": "Pro · Max · Ultra · Team",
-      "announced": "2026-11-10",
-      "expires": "2026-12-10T14:00:00-08:00",
-      "deadline": "10. Dezember 2026 · 23:00 Uhr Berlin",
-      "text": "Ein zusätzlicher vollständiger Reset. Laut ClaudeDevs für die genannten zahlenden Tarife bereitgestellt. Ob dein Konto ihn noch unbenutzt hat, siehst du nur in deinen Nutzungseinstellungen.",
-      "sources": [
-        "full",
-        "help"
-      ]
-    },
-    {
-      "title": "Fable-Reset: Pro / Team Standard",
-      "label": "Launch-Angebot",
-      "scope": "Pro · Team Standard",
-      "announced": "2026-11-09",
-      "expires": "2026-11-16T23:59:00-08:00",
-      "deadline": "17. November 2026 · 08:59 Uhr Berlin",
-      "text": "Ein Fable-Reset plus eine Woche Fable-Nutzung innerhalb von bis zu 50 % des Wochenlimits. Nur bei erfülltem Abrechnungsstichtag vor 9.11., 10:00 PT. Nicht im Free-Tarif.",
-      "sources": [
-        "promo"
-      ]
-    },
-    {
-      "title": "Fable-Resets: weitere berechtigte Tarife",
-      "label": "Je nach Abo-Dauer 1 bis 3",
-      "scope": "Max · Ultra · Team Premium · bestimmte Legacy-Enterprise-Premium-Sitze",
-      "announced": "2026-11-09",
-      "expires": "2027-03-08T23:59:00-08:00",
-      "deadline": "9. März 2027 · 08:59 Uhr Berlin",
-      "text": "Wöchentlich wird nur die auf Fable verbrauchte Nutzung wiederhergestellt. Ein vorhandenes Fünf-Stunden-Limit wird vollständig aufgefüllt. Tarif, Stichtag und Ausschlüsse im offiziellen Angebot prüfen.",
-      "sources": [
-        "promo",
-        "help"
-      ]
-    }
-  ],
-  "signals": [
-    {
-      "title": "Release als Anlass",
-      "state": "Direkt belegt",
-      "text": "Der Modellstart vom 9. November kam mit Fable-Resets. Ein echtes Beispiel, aber keine Garantie für künftige Starts.",
-      "sources": [
-        "launch",
-        "promo"
-      ]
-    },
-    {
-      "title": "Verbrauchsfehler als Anlass",
-      "state": "Direkt belegt",
-      "text": "Der Full-Reset-Post vom 10. November nennt behobene Verbrauchsprobleme und die Grenzen der Fable-Resets.",
-      "sources": [
-        "full"
-      ]
-    },
-    {
-      "title": "Kadenz und Gerüchte",
-      "state": "Keine Terminbasis",
-      "text": "Archive liefern Suchhinweise. Ohne vollständige, unabhängig geprüfte Grundgesamtheit entsteht daraus kein belastbares tägliches Wahrscheinlichkeitsmodell.",
-      "sources": [
-        "archive",
-        "cadence"
-      ]
-    }
-  ],
-  "events": [
-    {
-      "date": "2026-11-10",
-      "title": "Full Reset für alle Modelle",
-      "kind": "Einlösbarer Reset",
-      "scope": "Pro, Max, Ultra, Team",
-      "detail": "Ein zusätzlicher vollständiger Reset über alle Modelle und Limits. Hintergrund laut Originalpost: behobene Probleme mit zu hohem Verbrauch und begrenzte Wirkung der Fable-Resets. Einlösbar bis 10.12.2026, 23:00 Uhr Berlin.",
-      "evidence": "bestätigt",
-      "sources": [
-        "full",
-        "help"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Fable 5.2: Launch-Resets",
-      "kind": "Modellbezogener Reset",
-      "scope": "Berechtigte zahlende Abos und Sitze",
-      "detail": "Ein bis drei Fable-Resets je nach Tarif und Abo-Dauer. Pro und Team Standard: ein Reset und eine Woche Fable-Nutzung. Kein Angebot für den Free-Tarif.",
-      "evidence": "bestätigt",
-      "sources": [
-        "promo",
-        "launch"
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Opus 5.5: Reset zum Einlösen",
-      "kind": "Einlösbarer Reset",
-      "scope": "Pro, Max, Team",
-      "detail": "Archiv nennt einen abrufbaren Reset bis 22. Oktober zum Opus-5.5-Start.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Wöchentliche Limits zurückgesetzt",
-      "kind": "Globaler Reset",
-      "scope": "Max",
-      "detail": "Archiv verbindet den Reset mit Fable 5.1 und einem langen Wochenende.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Fable 5.1: beide Limits zurückgesetzt",
-      "kind": "Globaler Reset",
-      "scope": "Alle Nutzer laut Originalpost",
-      "detail": "Zum Start von Fable 5.1 wurden Fünf-Stunden- und Wochenlimits für alle Nutzer zurückgesetzt. Ein weiterer konkret belegter Release-Zusammenhang.",
-      "evidence": "bestätigt",
-      "sources": [
-        "sep1"
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Fünf-Stunden- und Wochenlimits",
-      "kind": "Globaler Reset",
-      "scope": "Alle Nutzer laut Archiv",
-      "detail": "Kein Release-Grund im archivierten Ankündigungstext.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "title": "Fünf-Stunden- und Wochenlimits",
-      "kind": "Globaler Reset",
-      "scope": "Alle Nutzer laut Archiv",
-      "detail": "Kein Release-Grund im archivierten Ankündigungstext.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "title": "Fable 5 wieder verfügbar",
-      "kind": "Globaler Reset",
-      "scope": "Alle Nutzer laut Archiv",
-      "detail": "Archiv verbindet den Reset mit der erneuten Bereitstellung von Fable 5.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-06-20",
-      "title": "Reset zum Wochenende",
-      "kind": "Globaler Reset",
-      "scope": "Alle Tarife laut Archiv",
-      "detail": "Archiv berichtet einen außerplanmäßigen Reset beider Limits.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "title": "Fehler bei Wochenlimits",
-      "kind": "Teilweiser Reset",
-      "scope": "Betroffene Pro-/Max-Nutzer",
-      "detail": "Archiv nennt einen Bug bei rund drei Prozent der Claude-Code-Pro-/Max-Nutzer; kein Reset für alle.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-06-13",
-      "title": "Fünf-Stunden- und Wochenlimits",
-      "kind": "Globaler Reset",
-      "scope": "Alle Nutzer laut Archiv",
-      "detail": "Außerplanmäßiger Reset, im Archiv erfasst.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Fable 5: Reset zum Start",
-      "kind": "Globaler Reset",
-      "scope": "Alle Nutzer laut Archiv",
-      "detail": "Archiv nennt einen Release-begleitenden Reset.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Zu viele parallele Subagents",
-      "kind": "Globaler Reset",
-      "scope": "Pro, Max",
-      "detail": "Archiv nennt die Behebung zu hohen Verbrauchs als Anlass.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-05-15",
-      "title": "Reset zum Freitag",
-      "kind": "Globaler Reset",
-      "scope": "Alle Nutzer laut Archiv",
-      "detail": "Archiv nennt einen außerplanmäßigen Reset zum Wochenende.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Qualitätsprobleme behoben",
-      "kind": "Globaler Reset",
-      "scope": "Abonnenten laut Archiv",
-      "detail": "Archiv verbindet den Reset mit behobenen Claude-Code-Problemen.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    },
-    {
-      "date": "2026-04-16",
-      "title": "Opus 4.7: Long-Context-Bug",
-      "kind": "Globaler Reset",
-      "scope": "Abonnenten laut Archiv",
-      "detail": "Archiv nennt eine Korrektur der Limits für lange Anfragen und einen Reset.",
-      "evidence": "Archivhinweis",
-      "sources": [
-        "archive"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "full",
-      "title": "ClaudeDevs: kostenloser Full Reset",
-      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
-      "publisher": "ClaudeDevs",
-      "type": "Primärankündigung",
-      "checked": "2026-11-11",
-      "note": "Originalpost im Browser gelesen. Ankündigung vom 10. November, nicht vom heutigen Tag."
-    },
-    {
-      "id": "promo",
-      "title": "Claude Fable 5.2 launch offers",
-      "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers",
-      "publisher": "Claude Help Center",
-      "type": "Offizielle Bedingungen",
-      "checked": "2026-11-11",
-      "note": "Tarife, Stichtag, Wirkung und getrennte Ablaufzeiten der Launch-Angebote."
-    },
-    {
-      "id": "help",
-      "title": "What is a limit reset?",
-      "url": "https://support.claude.com/en/articles/17007452-what-is-a-limit-reset",
-      "publisher": "Claude Help Center",
-      "type": "Offizielle Hilfe",
-      "checked": "2026-11-11",
-      "note": "Einlösung unter Settings > Usage; normale Wochenzyklen bleiben bestehen."
-    },
-    {
-      "id": "launch",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "publisher": "Anthropic",
-      "type": "Release-Ankündigung",
-      "checked": "2026-11-11",
-      "note": "Veröffentlicht am 9. November 2026. Expliziter Zusammenhang mit zusätzlicher Fable-Nutzung."
-    },
-    {
-      "id": "news",
-      "title": "Anthropic Newsroom",
-      "url": "https://www.anthropic.com/news",
-      "publisher": "Anthropic",
-      "type": "Offizielles Nachrichtenarchiv",
-      "checked": "2026-11-11",
-      "note": "Auf neue Modellankündigungen und Hinweise geprüft."
-    },
-    {
-      "id": "platform",
-      "title": "Claude Platform release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "publisher": "Claude Platform",
-      "type": "Technisches Changelog",
-      "checked": "2026-11-11",
-      "note": "Modellveröffentlichungen von Software-Updates unterscheiden."
-    },
-    {
-      "id": "sep1",
-      "title": "ClaudeDevs: Reset zum Fable-5.1-Start",
-      "url": "https://x.com/ClaudeDevs/status/2094856679250919746",
-      "publisher": "ClaudeDevs",
-      "type": "Primärankündigung",
-      "checked": "2026-11-11",
-      "note": "Originalpost vom 1. September im Browser gelesen: Fünf-Stunden- und Wochenlimits für alle Nutzer zurückgesetzt."
-    },
-    {
-      "id": "archive",
-      "title": "Every Claude reset on record",
-      "url": "https://claudereset.org/timeline/",
-      "publisher": "claudereset.org",
-      "type": "Unabhängiges Community-Archiv",
-      "checked": "2026-11-11",
-      "note": "Historische Recherchehinweise, keine Vollständigkeitsgarantie. Archiv vermischt teils globale und einlösbare Resets; hier getrennt klassifiziert."
-    },
-    {
-      "id": "digest",
-      "title": "Claude usage reset log",
-      "url": "https://limitdigest.com/resets/claude/log/",
-      "publisher": "LimitDigest",
-      "type": "Unabhängiger Tracker",
-      "checked": "2026-11-11",
-      "note": "Zum Gegenprüfen und Auffinden von Primärquellen, nicht als alleiniger Verfügbarkeitsbeleg."
-    },
-    {
-      "id": "report",
-      "title": "Claude free full reset before December 10",
-      "url": "https://madrobot.blog/2026/11/10/claude-free-full-reset-december-10/",
-      "publisher": "MadRobot",
-      "type": "Unabhängiger Bericht",
-      "checked": "2026-11-11",
-      "note": "Zeitgenössischer Bericht und Screenshot zum Full Reset; Originalpost separat geprüft."
-    },
-    {
-      "id": "cadence",
-      "title": "Claude release dates 2026 and the next model",
-      "url": "https://noder.ai/insights/claude-releases-2026/",
-      "publisher": "Noder",
-      "type": "Unabhängige Release-Übersicht",
-      "checked": "2026-11-11",
-      "note": "Kadenz nur als Kontext, nicht als belastbarer Terminplan."
-    },
-    {
-      "id": "channel",
-      "title": "Anthropic über den eigenen ClaudeDevs-Kanal",
-      "url": "https://www.anthropic.com/research/april-23-postmortem",
-      "publisher": "Anthropic",
-      "type": "Offizielle Kanalzuordnung",
-      "checked": "2026-11-11",
-      "note": "Anthropic schreibt ausdrücklich, @ClaudeDevs auf X eingerichtet zu haben. Die Zuordnung beruht nicht nur auf einem Profilnamen oder Verifizierungsabzeichen."
-    }
-  ],
-  "analyses": [
-    {
-      "date": "2026-11-11",
-      "summary": "Erstaufnahme: Full Reset vom 10.11. und Reset zum Fable-5.1-Start vom 1.9. in Originalposts sowie Fable-Launch-Aktion vom 9.11. in offizieller Hilfe bestätigt. Kein belastbarer neuer Reset- oder Modelltermin gefunden. 13 weitere ältere Ereignisse als sekundäre Archivhinweise übernommen, nicht als primär verifiziert ausgegeben.",
-      "checked_sources": [
-        "full",
-        "promo",
-        "help",
-        "launch",
-        "news",
-        "platform",
-        "archive",
-        "digest",
-        "report",
-        "cadence",
-        "sep1",
-        "channel"
-      ]
-    }
-  ]
+  {
+   "title": "Fable-Reset: Pro / Team Standard",
+   "label": "Launch-Angebot",
+   "scope": "Pro · Team Standard",
+   "announced": "2026-11-09",
+   "expires": "2026-11-16T23:59:00-08:00",
+   "deadline": "17. November 2026 · 08:59 Uhr Berlin",
+   "text": "Ein Fable-Reset plus eine Woche Fable-Nutzung innerhalb von bis zu 50 % des Wochenlimits. Nur bei erfülltem Abrechnungsstichtag vor 9.11., 10:00 PT. Nicht im Free-Tarif.",
+   "sources": [
+    "promo"
+   ]
+  },
+  {
+   "title": "Fable-Resets: weitere berechtigte Tarife",
+   "label": "Je nach Abo-Dauer 1 bis 3",
+   "scope": "Max · Ultra · Team Premium · bestimmte Legacy-Enterprise-Premium-Sitze",
+   "announced": "2026-11-09",
+   "expires": "2027-03-08T23:59:00-08:00",
+   "deadline": "9. März 2027 · 08:59 Uhr Berlin",
+   "text": "Wöchentlich wird nur die auf Fable verbrauchte Nutzung wiederhergestellt. Ein vorhandenes Fünf-Stunden-Limit wird vollständig aufgefüllt. Tarif, Stichtag und Ausschlüsse im offiziellen Angebot prüfen.",
+   "sources": [
+    "promo",
+    "help"
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "title": "Release als Anlass",
+   "state": "Direkt belegt",
+   "text": "Der Modellstart vom 9. November kam mit Fable-Resets. Ein echtes Beispiel, aber keine Garantie für künftige Starts.",
+   "sources": [
+    "launch",
+    "promo"
+   ]
+  },
+  {
+   "title": "Verbrauchsfehler als Anlass",
+   "state": "Direkt belegt",
+   "text": "Der Full-Reset-Post vom 10. November nennt behobene Verbrauchsprobleme und die Grenzen der Fable-Resets.",
+   "sources": [
+    "full"
+   ]
+  },
+  {
+   "title": "Kadenz und Gerüchte",
+   "state": "Keine Terminbasis",
+   "text": "Archive liefern Suchhinweise. Ohne vollständige, unabhängig geprüfte Grundgesamtheit entsteht daraus kein belastbares tägliches Wahrscheinlichkeitsmodell.",
+   "sources": [
+    "archive",
+    "cadence"
+   ]
+  },
+  {
+   "title": "Resets maschinell sichtbar",
+   "state": "Sekundär belegt",
+   "text": "Ein Blog berichtet, Claude Code 2.1.322 lese Reset-Guthaben (Anzahl, Ablauf, Einlösbarkeit) über den OAuth-Nutzungsendpunkt. Das Hilfecenter bestätigt, dass der Einlöse-Button noch nicht in Claude Code existiert, zurückgesetzte Nutzung dort aber gilt. Einzelbericht, nicht offiziell bestätigt.",
+   "sources": [
+    "vanja",
+    "help"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-10",
+   "title": "Full Reset für alle Modelle",
+   "kind": "Einlösbarer Reset",
+   "scope": "Pro, Max, Ultra, Team",
+   "detail": "Ein zusätzlicher vollständiger Reset über alle Modelle und Limits. Hintergrund laut Originalpost: behobene Probleme mit zu hohem Verbrauch und begrenzte Wirkung der Fable-Resets. Einlösbar bis 10.12.2026, 23:00 Uhr Berlin.",
+   "evidence": "bestätigt",
+   "sources": [
+    "full",
+    "help"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "title": "Fable 5.2: Launch-Resets",
+   "kind": "Modellbezogener Reset",
+   "scope": "Berechtigte zahlende Abos und Sitze",
+   "detail": "Ein bis drei Fable-Resets je nach Tarif und Abo-Dauer. Pro und Team Standard: ein Reset und eine Woche Fable-Nutzung. Kein Angebot für den Free-Tarif.",
+   "evidence": "bestätigt",
+   "sources": [
+    "promo",
+    "launch"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "title": "Opus 5.5: Reset zum Einlösen",
+   "kind": "Einlösbarer Reset",
+   "scope": "Pro, Max, Team",
+   "detail": "Archiv nennt einen abrufbaren Reset bis 22. Oktober zum Opus-5.5-Start.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Wöchentliche Limits zurückgesetzt",
+   "kind": "Globaler Reset",
+   "scope": "Max",
+   "detail": "Archiv verbindet den Reset mit Fable 5.1 und einem langen Wochenende.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Fable 5.1: beide Limits zurückgesetzt",
+   "kind": "Globaler Reset",
+   "scope": "Alle Nutzer laut Originalpost",
+   "detail": "Zum Start von Fable 5.1 wurden Fünf-Stunden- und Wochenlimits für alle Nutzer zurückgesetzt. Ein weiterer konkret belegter Release-Zusammenhang.",
+   "evidence": "bestätigt",
+   "sources": [
+    "sep1"
+   ]
+  },
+  {
+   "date": "2026-07-16",
+   "title": "Fünf-Stunden- und Wochenlimits",
+   "kind": "Globaler Reset",
+   "scope": "Alle Nutzer laut Archiv",
+   "detail": "Kein Release-Grund im archivierten Ankündigungstext.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-07-09",
+   "title": "Fünf-Stunden- und Wochenlimits",
+   "kind": "Globaler Reset",
+   "scope": "Alle Nutzer laut Archiv",
+   "detail": "Kein Release-Grund im archivierten Ankündigungstext.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "title": "Fable 5 wieder verfügbar",
+   "kind": "Globaler Reset",
+   "scope": "Alle Nutzer laut Archiv",
+   "detail": "Archiv verbindet den Reset mit der erneuten Bereitstellung von Fable 5.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-06-20",
+   "title": "Reset zum Wochenende",
+   "kind": "Globaler Reset",
+   "scope": "Alle Tarife laut Archiv",
+   "detail": "Archiv berichtet einen außerplanmäßigen Reset beider Limits.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-06-19",
+   "title": "Fehler bei Wochenlimits",
+   "kind": "Teilweiser Reset",
+   "scope": "Betroffene Pro-/Max-Nutzer",
+   "detail": "Archiv nennt einen Bug bei rund drei Prozent der Claude-Code-Pro-/Max-Nutzer; kein Reset für alle.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-06-13",
+   "title": "Fünf-Stunden- und Wochenlimits",
+   "kind": "Globaler Reset",
+   "scope": "Alle Nutzer laut Archiv",
+   "detail": "Außerplanmäßiger Reset, im Archiv erfasst.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "title": "Fable 5: Reset zum Start",
+   "kind": "Globaler Reset",
+   "scope": "Alle Nutzer laut Archiv",
+   "detail": "Archiv nennt einen Release-begleitenden Reset.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-06-01",
+   "title": "Zu viele parallele Subagents",
+   "kind": "Globaler Reset",
+   "scope": "Pro, Max",
+   "detail": "Archiv nennt die Behebung zu hohen Verbrauchs als Anlass.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-05-15",
+   "title": "Reset zum Freitag",
+   "kind": "Globaler Reset",
+   "scope": "Alle Nutzer laut Archiv",
+   "detail": "Archiv nennt einen außerplanmäßigen Reset zum Wochenende.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-04-23",
+   "title": "Qualitätsprobleme behoben",
+   "kind": "Globaler Reset",
+   "scope": "Abonnenten laut Archiv",
+   "detail": "Archiv verbindet den Reset mit behobenen Claude-Code-Problemen.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  },
+  {
+   "date": "2026-04-16",
+   "title": "Opus 4.7: Long-Context-Bug",
+   "kind": "Globaler Reset",
+   "scope": "Abonnenten laut Archiv",
+   "detail": "Archiv nennt eine Korrektur der Limits für lange Anfragen und einen Reset.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "archive"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "full",
+   "title": "ClaudeDevs: kostenloser Full Reset",
+   "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+   "publisher": "ClaudeDevs",
+   "type": "Primärankündigung",
+   "checked": "2026-11-11",
+   "note": "Originalpost im Browser gelesen. Ankündigung vom 10. November, nicht vom heutigen Tag."
+  },
+  {
+   "id": "promo",
+   "title": "Claude Fable 5.2 launch offers",
+   "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers",
+   "publisher": "Claude Help Center",
+   "type": "Offizielle Bedingungen",
+   "checked": "2026-11-11",
+   "note": "Tarife, Stichtag, Wirkung und getrennte Ablaufzeiten der Launch-Angebote."
+  },
+  {
+   "id": "help",
+   "title": "What is a limit reset?",
+   "url": "https://support.claude.com/en/articles/17007452-what-is-a-limit-reset",
+   "publisher": "Claude Help Center",
+   "type": "Offizielle Hilfe",
+   "checked": "2026-11-11",
+   "note": "Einlösung unter Settings > Usage; normale Wochenzyklen bleiben bestehen."
+  },
+  {
+   "id": "launch",
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "publisher": "Anthropic",
+   "type": "Release-Ankündigung",
+   "checked": "2026-11-11",
+   "note": "Veröffentlicht am 9. November 2026. Expliziter Zusammenhang mit zusätzlicher Fable-Nutzung."
+  },
+  {
+   "id": "news",
+   "title": "Anthropic Newsroom",
+   "url": "https://www.anthropic.com/news",
+   "publisher": "Anthropic",
+   "type": "Offizielles Nachrichtenarchiv",
+   "checked": "2026-11-11",
+   "note": "Auf neue Modellankündigungen und Hinweise geprüft."
+  },
+  {
+   "id": "platform",
+   "title": "Claude Platform release notes",
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "publisher": "Claude Platform",
+   "type": "Technisches Changelog",
+   "checked": "2026-11-11",
+   "note": "Modellveröffentlichungen von Software-Updates unterscheiden."
+  },
+  {
+   "id": "sep1",
+   "title": "ClaudeDevs: Reset zum Fable-5.1-Start",
+   "url": "https://x.com/ClaudeDevs/status/2094856679250919746",
+   "publisher": "ClaudeDevs",
+   "type": "Primärankündigung",
+   "checked": "2026-11-11",
+   "note": "Originalpost vom 1. September im Browser gelesen: Fünf-Stunden- und Wochenlimits für alle Nutzer zurückgesetzt."
+  },
+  {
+   "id": "archive",
+   "title": "Every Claude reset on record",
+   "url": "https://claudereset.org/timeline/",
+   "publisher": "claudereset.org",
+   "type": "Unabhängiges Community-Archiv",
+   "checked": "2026-11-11",
+   "note": "Historische Recherchehinweise, keine Vollständigkeitsgarantie. Archiv vermischt teils globale und einlösbare Resets; hier getrennt klassifiziert."
+  },
+  {
+   "id": "digest",
+   "title": "Claude usage reset log",
+   "url": "https://limitdigest.com/resets/claude/log/",
+   "publisher": "LimitDigest",
+   "type": "Unabhängiger Tracker",
+   "checked": "2026-11-11",
+   "note": "Zum Gegenprüfen und Auffinden von Primärquellen, nicht als alleiniger Verfügbarkeitsbeleg."
+  },
+  {
+   "id": "report",
+   "title": "Claude free full reset before December 10",
+   "url": "https://madrobot.blog/2026/11/10/claude-free-full-reset-december-10/",
+   "publisher": "MadRobot",
+   "type": "Unabhängiger Bericht",
+   "checked": "2026-11-11",
+   "note": "Zeitgenössischer Bericht und Screenshot zum Full Reset; Originalpost separat geprüft."
+  },
+  {
+   "id": "cadence",
+   "title": "Claude release dates 2026 and the next model",
+   "url": "https://noder.ai/insights/claude-releases-2026/",
+   "publisher": "Noder",
+   "type": "Unabhängige Release-Übersicht",
+   "checked": "2026-11-11",
+   "note": "Kadenz nur als Kontext, nicht als belastbarer Terminplan."
+  },
+  {
+   "id": "channel",
+   "title": "Anthropic über den eigenen ClaudeDevs-Kanal",
+   "url": "https://www.anthropic.com/research/april-23-postmortem",
+   "publisher": "Anthropic",
+   "type": "Offizielle Kanalzuordnung",
+   "checked": "2026-11-11",
+   "note": "Anthropic schreibt ausdrücklich, @ClaudeDevs auf X eingerichtet zu haben. Die Zuordnung beruht nicht nur auf einem Profilnamen oder Verifizierungsabzeichen."
+  },
+  {
+   "id": "vanja",
+   "title": "Reset-Timing und Reset-Daten in Claude Code (Blog)",
+   "url": "https://vanja.io/reset-timing/",
+   "publisher": "vanja.io",
+   "type": "Sekundärhinweis",
+   "checked": "2026-11-12",
+   "note": "Berichtet, Claude Code 2.1.322 enthalte maschinell lesbare Reset-Guthaben über den OAuth-Nutzungsendpunkt. Einzelner Blog, nicht offiziell bestätigt."
+  },
+  {
+   "id": "shortcut",
+   "title": "Direktlink clau.de/reset",
+   "url": "https://sysnote.net/news/anthropic-gives-claude-pro-max-ultra-and-team-users-one-free-full-limit-reset-us",
+   "publisher": "sysnote.net",
+   "type": "Sekundärhinweis",
+   "checked": "2026-11-12",
+   "note": "Mehrere Medien nennen clau.de/reset als Direktlink. Die Domain löst auf eine Anthropic-Seite (Impressum: Anthropic PBC) auf; Funktion für eingeloggte Konten nicht primär geprüft. Offiziell dokumentierter Weg bleibt Settings > Usage."
+  }
+ ],
+ "analyses": [
+  {
+   "date": "2026-11-11",
+   "summary": "Erstaufnahme: Full Reset vom 10.11. und Reset zum Fable-5.1-Start vom 1.9. in Originalposts sowie Fable-Launch-Aktion vom 9.11. in offizieller Hilfe bestätigt. Kein belastbarer neuer Reset- oder Modelltermin gefunden. 13 weitere ältere Ereignisse als sekundäre Archivhinweise übernommen, nicht als primär verifiziert ausgegeben.",
+   "checked_sources": [
+    "full",
+    "promo",
+    "help",
+    "launch",
+    "news",
+    "platform",
+    "archive",
+    "digest",
+    "report",
+    "cadence",
+    "sep1",
+    "channel"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "summary": "Tagesprüfung: Offizielle News, Hilfecenter, Plattform-Release-Notes und beide Archive zeigen keinen neuen Reset und kein neues Modell seit dem Full Reset vom 10.11. Angebote und Fristen unverändert (Fable-Woche für Pro/Team Standard endet 17.11., Full Reset einlösbar bis 10.12.). Zwei Sekundärhinweise aufgenommen: Medien nennen clau.de/reset als Direktlink zur Einlösung; ein Blog berichtet maschinell lesbare Reset-Guthaben in Claude Code 2.1.322. Beides nicht primär bestätigt.",
+   "checked_sources": [
+    "help",
+    "promo",
+    "news",
+    "platform",
+    "archive",
+    "digest",
+    "vanja",
+    "shortcut"
+   ]
+  }
+ ]
 }
