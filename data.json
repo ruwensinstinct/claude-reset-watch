@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-12T10:52:21+01:00",
+ "as_of": "2026-11-13T10:50:19+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Für einen NEUEN zusätzlichen Reset haben die geprüften Quellen auch bei der Tagesprüfung vom 12.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Ein bereits angekündigter Reset ist verfügbar für berechtigte, noch nicht eingelöste Konten. Das ist keine Prognose für einen weiteren Reset.",
+  "text": "Für einen NEUEN zusätzlichen Reset haben die geprüften Quellen auch bei der Tagesprüfung vom 13.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Ein bereits angekündigter Reset ist verfügbar für berechtigte, noch nicht eingelöste Konten. Das ist keine Prognose für einen weiteren Reset.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart ist Fable 5.2 / Mythos 5.2 vom 9. November 2026. Release-Abstände sind unregelmäßig. Aus drei Tagen seit diesem Start folgt weder ein naher weiterer Start noch ein Reset-Termin.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart ist Fable 5.2 / Mythos 5.2 vom 9. November 2026. Release-Abstände sind unregelmäßig. Aus vier Tagen seit diesem Start folgt weder ein naher weiterer Start noch ein Reset-Termin. Der Plattform-Eintrag vom 12.11. (selbstgehostete Managed Agents) ist kein Verbrauchermodell und kein Reset-Anlass.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -17,7 +17,7 @@
    "announced": "2026-11-10",
    "expires": "2026-12-10T14:00:00-08:00",
    "deadline": "10. Dezember 2026 · 23:00 Uhr Berlin",
-   "text": "Ein zusätzlicher vollständiger Reset. Laut ClaudeDevs für die genannten zahlenden Tarife bereitgestellt. Ob dein Konto ihn noch unbenutzt hat, siehst du nur in deinen Nutzungseinstellungen.",
+   "text": "Ein zusätzlicher vollständiger Reset. Laut ClaudeDevs für die genannten zahlenden Tarife bereitgestellt. Einlösbar in Settings > Usage oder über den im Originalpost genannten Direktlink clau.de/reset. Ob dein Konto ihn noch unbenutzt hat, siehst du nur in deinen Nutzungseinstellungen.",
    "sources": [
     "full",
     "help"
@@ -83,6 +83,16 @@
    "sources": [
     "vanja",
     "help"
+   ]
+  },
+  {
+   "title": "Nutzungsdruck als Vorläufer",
+   "state": "Sekundär belegt",
+   "text": "Dem Full Reset vom 10.11. gingen Beschwerden über schnell leere Limits voraus; Anthropic nannte behobene Verbrauchsfehler als Grund. Community-Zählungen melden zuletzt erneut viele Limit-Treffer. Ein beobachtbarer Hinweis, aber kein zuverlässiger Vorläufer und kein Termin.",
+   "sources": [
+    "full",
+    "pulse",
+    "digest"
    ]
   }
  ],
@@ -387,11 +397,20 @@
   {
    "id": "shortcut",
    "title": "Direktlink clau.de/reset",
-   "url": "https://sysnote.net/news/anthropic-gives-claude-pro-max-ultra-and-team-users-one-free-full-limit-reset-us",
-   "publisher": "sysnote.net",
+   "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+   "publisher": "ClaudeDevs",
+   "type": "Primär bestätigt",
+   "checked": "2026-11-13",
+   "note": "Der Originalpost vom 10.11. nennt ausdrücklich 'Settings > Usage, or at clau.de/reset'. Am 13.11. im Primärpost nachgelesen; die Domain löst auf eine Anthropic-Seite auf. Gleicher Post wie Quelle 'full', als eigener Eintrag für den Link."
+  },
+  {
+   "id": "pulse",
+   "title": "Limit Pulse: Community-Meldungen über erreichte Limits",
+   "url": "https://limitdex.com/limit-pulse/",
+   "publisher": "LimitDex",
    "type": "Sekundärhinweis",
-   "checked": "2026-11-12",
-   "note": "Mehrere Medien nennen clau.de/reset als Direktlink. Die Domain löst auf eine Anthropic-Seite (Impressum: Anthropic PBC) auf; Funktion für eingeloggte Konten nicht primär geprüft. Offiziell dokumentierter Weg bleibt Settings > Usage."
+   "checked": "2026-11-13",
+   "note": "Zählt öffentliche Meldungen über erreichte Limits aus X und GitHub. Bericht vom 12.11.: 936 Meldungen vom 5.-11.11., davon Claude Code 433, Spitzentag 11.11. Keine Anbieterangabe, zeigt Beschwerdedruck, keine Limit-Höhe."
   }
  ],
  "analyses": [
@@ -425,6 +444,20 @@
     "digest",
     "vanja",
     "shortcut"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "summary": "Tagesprüfung: Kein neuer Reset und kein neues Verbrauchermodell. Plattform-Release-Notes vom 12.11. betreffen selbstgehostete Managed Agents, kein Reset-Anlass. Primärpost vom 10.11. nachgelesen: Er nennt selbst clau.de/reset als Direktlink - Quelle von sekundär auf primär bestätigt hochgestuft und im Angebot ergänzt. Neuer Sekundärtracker Limit Pulse zählt steigende Limit-Beschwerden (936 Meldungen 5.-11.11.), als unsicherer Druckindikator aufgenommen.",
+   "checked_sources": [
+    "full",
+    "help",
+    "promo",
+    "news",
+    "platform",
+    "archive",
+    "digest",
+    "pulse"
    ]
   }
  ]
