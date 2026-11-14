@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-13T10:50:19+01:00",
+ "as_of": "2026-11-14T10:49:05+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Für einen NEUEN zusätzlichen Reset haben die geprüften Quellen auch bei der Tagesprüfung vom 13.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Ein bereits angekündigter Reset ist verfügbar für berechtigte, noch nicht eingelöste Konten. Das ist keine Prognose für einen weiteren Reset.",
+  "text": "Für einen NEUEN zusätzlichen Reset haben die geprüften Quellen auch bei der Tagesprüfung vom 14.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Ein bereits angekündigter Reset ist verfügbar für berechtigte, noch nicht eingelöste Konten. Das ist keine Prognose für einen weiteren Reset.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart ist Fable 5.2 / Mythos 5.2 vom 9. November 2026. Release-Abstände sind unregelmäßig. Aus vier Tagen seit diesem Start folgt weder ein naher weiterer Start noch ein Reset-Termin. Der Plattform-Eintrag vom 12.11. (selbstgehostete Managed Agents) ist kein Verbrauchermodell und kein Reset-Anlass.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart ist Fable 5.2 / Mythos 5.2 vom 9. November 2026. Release-Abstände sind unregelmäßig. Aus fünf Tagen seit diesem Start folgt weder ein naher weiterer Start noch ein Reset-Termin. Der Plattform-Eintrag vom 12.11. (selbstgehostete Managed Agents) ist kein Verbrauchermodell und kein Reset-Anlass.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -449,6 +449,20 @@
   {
    "date": "2026-11-13",
    "summary": "Tagesprüfung: Kein neuer Reset und kein neues Verbrauchermodell. Plattform-Release-Notes vom 12.11. betreffen selbstgehostete Managed Agents, kein Reset-Anlass. Primärpost vom 10.11. nachgelesen: Er nennt selbst clau.de/reset als Direktlink - Quelle von sekundär auf primär bestätigt hochgestuft und im Angebot ergänzt. Neuer Sekundärtracker Limit Pulse zählt steigende Limit-Beschwerden (936 Meldungen 5.-11.11.), als unsicherer Druckindikator aufgenommen.",
+   "checked_sources": [
+    "full",
+    "help",
+    "promo",
+    "news",
+    "platform",
+    "archive",
+    "digest",
+    "pulse"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "summary": "Tagesprüfung: Kein neuer Reset, kein neues Modell, keine geänderten Konditionen in News, Hilfecenter und Plattform-Notes. Beide Archive unverändert (letzter Eintrag 10.11.). Ausblick: Die Fable-Woche für Pro/Team Standard und der zugehörige Fable-Reset laufen am 17.11., 08:59 Uhr Berlin ab - erste Frist seit Start dieser Beobachtung. Limit Pulse zählt weiter Limit-Meldungen (Fenster 5.-12.11., Claude-Code-Spitze 82/Tag), weiterhin nur unsicherer Druckindikator.",
    "checked_sources": [
     "full",
     "help",
