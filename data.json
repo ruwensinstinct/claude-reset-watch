@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-14T10:49:05+01:00",
+ "as_of": "2026-11-15T10:49:21+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Für einen NEUEN zusätzlichen Reset haben die geprüften Quellen auch bei der Tagesprüfung vom 14.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Ein bereits angekündigter Reset ist verfügbar für berechtigte, noch nicht eingelöste Konten. Das ist keine Prognose für einen weiteren Reset.",
+  "text": "Seit dem 13.11. ist ein NEUER einlösbarer Reset bestätigt: die Duet-Resets der Research Preview (USA, Pro 3x, Max/Ultra 1x, bis 15.12.). Für einen weiteren allgemeinen Reset für alle haben die geprüften Quellen bei der Tagesprüfung vom 15.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Bereits angekündigte Resets sind Verfügbarkeit, keine Prognose.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart ist Fable 5.2 / Mythos 5.2 vom 9. November 2026. Release-Abstände sind unregelmäßig. Aus fünf Tagen seit diesem Start folgt weder ein naher weiterer Start noch ein Reset-Termin. Der Plattform-Eintrag vom 12.11. (selbstgehostete Managed Agents) ist kein Verbrauchermodell und kein Reset-Anlass.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026. Claude Duet (seit 21.10. im Research Preview, Einladungswelle 13.11.) ist ein Produkt, kein neues Basismodell. Der Plattform-Eintrag vom 12.11. (selbstgehostete Managed Agents) ist ebenfalls kein Verbrauchermodell.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -46,6 +46,18 @@
    "sources": [
     "promo",
     "help"
+   ]
+  },
+  {
+   "title": "Duet-Resets (Research Preview)",
+   "label": "Pro 3x · Max/Ultra 1x",
+   "scope": "Pro · Max · Ultra (USA, Preview)",
+   "announced": "2026-11-13",
+   "expires": "2026-12-15",
+   "deadline": "15. Dezember 2026 · Uhrzeit nicht offiziell angegeben",
+   "text": "Volle Resets (5-Stunden- und Wochenlimit) für Teilnehmende der Claude-Duet-Research-Preview in den USA: Pro drei, Max und Ultra einer. Grund laut Hilfecenter: Duets Hintergrundarbeit verbraucht Plan-Limits schneller. Nur USA, nur Preview, nicht Team/Enterprise. Einlösbar in Settings > Usage.",
+   "sources": [
+    "duet"
    ]
   }
  ],
@@ -97,6 +109,29 @@
   }
  ],
  "events": [
+  {
+   "date": "2026-11-13",
+   "title": "Duet-Resets in der Research Preview",
+   "kind": "Einlösbarer Reset",
+   "scope": "Pro (3x), Max und Ultra (1x), USA",
+   "detail": "Anthropic legt während der Duet-Research-Preview volle Limit-Resets auf berechtigte Konten: Pro drei, Max und Ultra einer. Offizieller Grund: Duets Hintergrundarbeit (Morning Brief, Check-ins) zehrt schneller am Limit. Unbenutzte Resets laufen am 15.12.2026 ab. Am 13.11. wurden laut Sekundärberichten alle wartelisten US-Abonnenten eingeladen.",
+   "evidence": "bestätigt",
+   "sources": [
+    "duet",
+    "duetnews"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Frühere Duet-Reset-Tranche",
+   "kind": "Einlösbarer Reset",
+   "scope": "Duet-Tester (USA)",
+   "detail": "Ein Nutzer-Screenshot vom 5.11. zeigt eine Duet-Mitteilung über zwei gutgeschriebene Resets mit Ablauf 15.12. Sekundär belegt; die offizielle Hilfe bestätigt das Prinzip der Preview-Resets, nicht diese konkrete Tranche.",
+   "evidence": "Archivhinweis",
+   "sources": [
+    "duetnews"
+   ]
+  },
   {
    "date": "2026-11-10",
    "title": "Full Reset für alle Modelle",
@@ -278,6 +313,15 @@
  ],
  "sources": [
   {
+   "id": "duet",
+   "title": "Hilfecenter: Get started with Claude Duet",
+   "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+   "publisher": "Anthropic / Claude Help Center",
+   "type": "Offizielle Hilfe",
+   "checked": "2026-11-15",
+   "note": "Bestätigt: volle Limit-Resets während der Duet-Research-Preview, Pro 3x, Max/Ultra 1x, Ablauf 15.12.2026, Einlösung in Settings > Usage. USA-Preview für Pro/Max/Ultra, nicht Team/Enterprise."
+  },
+  {
    "id": "full",
    "title": "ClaudeDevs: kostenloser Full Reset",
    "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
@@ -411,6 +455,15 @@
    "type": "Sekundärhinweis",
    "checked": "2026-11-13",
    "note": "Zählt öffentliche Meldungen über erreichte Limits aus X und GitHub. Bericht vom 12.11.: 936 Meldungen vom 5.-11.11., davon Claude Code 433, Spitzentag 11.11. Keine Anbieterangabe, zeigt Beschwerdedruck, keine Limit-Höhe."
+  },
+  {
+   "id": "duetnews",
+   "title": "Duet-Einladungswelle und Reset-Aufteilung",
+   "url": "https://sysnote.net/news/claude-duet-invites-come-with-free-usage-limit-resets-three-for-pro-one-for-max",
+   "publisher": "sysnote.net",
+   "type": "Sekundärhinweis",
+   "checked": "2026-11-15",
+   "note": "Berichtet die Einladungswelle vom 13.11. (20:02 UTC, Karan Ahuja) und die frühere Tranche vom 5.11. per Nutzer-Screenshot. Kernfakten der Resets durch das Hilfecenter primär bestätigt. Warnt zudem vor Lookalike-Konten mit gefälschten Reset-Anleitungen; echte Resets erscheinen nur in Settings > Usage."
   }
  ],
  "analyses": [
@@ -472,6 +525,20 @@
     "archive",
     "digest",
     "pulse"
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "summary": "Material: Neuer bestätigter Reset. Das offizielle Hilfecenter dokumentiert volle Limit-Resets der Duet-Research-Preview (USA): Pro 3x, Max/Ultra 1x, Ablauf 15.12., Einlösung in Settings > Usage. Als viertes aktuelles Angebot und bestätigtes Ereignis 13.11. aufgenommen; frühere Tranche 5.11. nur als Archivhinweis. Damit laufen aktuell zwei Reset-Fristen: 10.12. (Full Reset) und 15.12. (Duet). Morgen, 17.11. 08:59 Berlin, endet die Fable-Woche für Pro/Team Standard. Nebenbefund: Sekundärquelle warnt vor Fake-Konten mit Reset-Fälschungen - echte Resets nur in Settings > Usage.",
+   "checked_sources": [
+    "duet",
+    "duetnews",
+    "help",
+    "promo",
+    "news",
+    "platform",
+    "archive",
+    "digest"
    ]
   }
  ]
