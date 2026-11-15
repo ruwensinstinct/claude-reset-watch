@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-15T10:49:21+01:00",
+ "as_of": "2026-11-15T10:52:37+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
@@ -529,7 +529,7 @@
   },
   {
    "date": "2026-11-15",
-   "summary": "Material: Neuer bestätigter Reset. Das offizielle Hilfecenter dokumentiert volle Limit-Resets der Duet-Research-Preview (USA): Pro 3x, Max/Ultra 1x, Ablauf 15.12., Einlösung in Settings > Usage. Als viertes aktuelles Angebot und bestätigtes Ereignis 13.11. aufgenommen; frühere Tranche 5.11. nur als Archivhinweis. Damit laufen aktuell zwei Reset-Fristen: 10.12. (Full Reset) und 15.12. (Duet). Morgen, 17.11. 08:59 Berlin, endet die Fable-Woche für Pro/Team Standard. Nebenbefund: Sekundärquelle warnt vor Fake-Konten mit Reset-Fälschungen - echte Resets nur in Settings > Usage.",
+   "summary": "Material: Neuer bestätigter Reset. Das offizielle Hilfecenter dokumentiert volle Limit-Resets der Duet-Research-Preview (USA): Pro 3x, Max/Ultra 1x, Ablauf 15.12., Einlösung in Settings > Usage. Als viertes aktuelles Angebot und bestätigtes Ereignis 13.11. aufgenommen; frühere Tranche 5.11. nur als Archivhinweis. Damit laufen aktuell zwei Reset-Fristen: 10.12. (Full Reset) und 15.12. (Duet). Übermorgen, 17.11. 08:59 Berlin, endet die Fable-Woche samt Fable-Reset für Pro/Team Standard (Quelle: 16.11., 23:59 PT). Nebenbefund: Sekundärquelle warnt vor Fake-Konten mit Reset-Fälschungen - echte Resets nur in Settings > Usage.",
    "checked_sources": [
     "duet",
     "duetnews",
