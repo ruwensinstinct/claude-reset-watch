@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-15T10:52:37+01:00",
+ "as_of": "2026-11-16T10:49:37+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Seit dem 13.11. ist ein NEUER einlösbarer Reset bestätigt: die Duet-Resets der Research Preview (USA, Pro 3x, Max/Ultra 1x, bis 15.12.). Für einen weiteren allgemeinen Reset für alle haben die geprüften Quellen bei der Tagesprüfung vom 15.11. keinen konkreten Termin oder belastbaren Vorabhinweis geliefert. Bereits angekündigte Resets sind Verfügbarkeit, keine Prognose.",
+  "text": "Die Tagesprüfung vom 16.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen bereits: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026. Claude Duet (seit 21.10. im Research Preview, Einladungswelle 13.11.) ist ein Produkt, kein neues Basismodell. Der Plattform-Eintrag vom 12.11. (selbstgehostete Managed Agents) ist ebenfalls kein Verbrauchermodell.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, sechs Tage zurück. Claude Duet (Research Preview, US-Einladungswelle 13.11.) ist ein Produkt, kein neues Basismodell; sein Reset ist preview-gebunden, kein allgemeiner.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -533,6 +533,19 @@
    "checked_sources": [
     "duet",
     "duetnews",
+    "help",
+    "promo",
+    "news",
+    "platform",
+    "archive",
+    "digest"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "summary": "Tagesprüfung: Kein neuer Reset, kein neues Modell, keine Konditionsänderung. Hilfecenter bestätigt Duet-Resets unverändert (Pro 3x, Max/Ultra 1x, bis 15.12.). Beide Archive ohne neuen Eintrag (Stand 15.11.). Morgen, 17.11. 08:59 Berlin, endet die Fable-Woche samt Fable-Reset für Pro/Team Standard (Quelle: 16.11., 23:59 PT); die Seite markiert das Angebot danach automatisch als abgelaufen, morgige Prüfung verifiziert das. Sekundär: Berichte über Duet-Einladungen (3 pro Nutzer) - Einladungen, keine Resets.",
+   "checked_sources": [
+    "duet",
     "help",
     "promo",
     "news",
