@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-16T10:49:37+01:00",
+ "as_of": "2026-11-17T10:49:43+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Die Tagesprüfung vom 16.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen bereits: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
+  "text": "Die Tagesprüfung vom 17.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen noch: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Die Fable-Aktion für Pro/Team Standard ist heute 08:59 Uhr Berlin ausgelaufen. Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, sechs Tage zurück. Claude Duet (Research Preview, US-Einladungswelle 13.11.) ist ein Produkt, kein neues Basismodell; sein Reset ist preview-gebunden, kein allgemeiner.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, sieben Tage zurück. Plattform-Einträge vom 12.11. (Managed Agents) und 16.11. (Text-Wasserzeichen) sind keine Verbrauchermodell-Starts und keine Reset-Anlässe.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -109,6 +109,17 @@
   }
  ],
  "events": [
+  {
+   "date": "2026-11-17",
+   "title": "Fable-Angebot für Pro / Team Standard abgelaufen",
+   "kind": "Ablauf",
+   "scope": "Pro · Team Standard",
+   "detail": "Fable-Woche und zugehöriger Fable-Reset endeten wie angekündigt am 16.11., 23:59 PT (17.11., 08:59 Uhr Berlin). Die Seite markiert das Angebot automatisch als 'FRIST ABGELAUFEN' (heute verifiziert). Full Reset (10.12.) und Duet-Resets (15.12.) laufen weiter.",
+   "evidence": "bestätigt",
+   "sources": [
+    "promo"
+   ]
+  },
   {
    "date": "2026-11-13",
    "title": "Duet-Resets in der Research Preview",
@@ -548,6 +559,19 @@
     "duet",
     "help",
     "promo",
+    "news",
+    "platform",
+    "archive",
+    "digest"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "summary": "Tagesprüfung: Kein neuer Reset, kein neues Modell. Erste Frist seit Beobachtungsstart eingetreten: Fable-Woche und Fable-Reset für Pro/Team Standard um 08:59 Uhr Berlin abgelaufen; automatische Ablauf-Markierung auf der Live-Seite visuell verifiziert. Verbleibende Angebote: Full Reset bis 10.12., Duet-Resets bis 15.12. Plattform-Note vom 16.11. (Text-Wasserzeichen für ältere Modelle) ist kein Reset-Thema. Archive unverändert (Stand 16.11.).",
+   "checked_sources": [
+    "promo",
+    "help",
+    "duet",
     "news",
     "platform",
     "archive",
