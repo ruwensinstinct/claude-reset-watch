@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-18T10:49:06+01:00",
+ "as_of": "2026-11-19T10:49:18+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Die Tagesprüfung vom 18.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen noch: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
+  "text": "Die Tagesprüfung vom 19.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen noch: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, acht Tage zurück. Plattform-Einträge vom 16.11. (Text-Wasserzeichen) und 17.11. (Linked Billing, Beta) sind API-Themen, keine Verbrauchermodell-Starts und keine Reset-Anlässe.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, neun Tage zurück. Plattform-Einträge vom 16.11. (Text-Wasserzeichen) und 17.11. (Linked Billing, Beta) sind API-Themen, keine Verbrauchermodell-Starts und keine Reset-Anlässe.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -581,6 +581,19 @@
   {
    "date": "2026-11-18",
    "summary": "Tagesprüfung: Kein neuer Reset, kein neues Modell, keine Konditionsänderung. Full Reset (10.12.) und Duet-Resets (15.12.) laufen unverändert; Fable-Angebot für Pro/Team Standard seit gestern abgelaufen und auf der Seite als solches markiert. Plattform-Note vom 17.11. (Linked Billing Beta) ist ein API-Abrechnungsthema, kein Reset-Anlass. Archive unverändert (Stand 17.11.).",
+   "checked_sources": [
+    "help",
+    "promo",
+    "duet",
+    "news",
+    "platform",
+    "archive",
+    "digest"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "summary": "Tagesprüfung: Kein neuer Reset, kein neues Modell, keine Konditionsänderung. Full Reset (10.12.) und Duet-Resets (15.12.) laufen unverändert. Sekundärberichte vom 13.11. über zwei Claude-Ausfälle am selben Tag - Betriebsvorfälle, keine Reset-Anlässe; Anthropic hat daraus keinen Reset angekündigt. Archive unverändert (Stand 18.11.).",
    "checked_sources": [
     "help",
     "promo",
