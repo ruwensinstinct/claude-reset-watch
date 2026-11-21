@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-20T10:49:03+01:00",
+ "as_of": "2026-11-21T10:49:00+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Die Tagesprüfung vom 20.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen noch: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
+  "text": "Die Tagesprüfung vom 21.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen noch: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, zehn Tage zurück. Die Plattform-Einträge seit dem 12.11. sind API-Themen (Managed Agents, Text-Wasserzeichen, Linked Billing), keine Verbrauchermodell-Starts und keine Reset-Anlässe.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, zwölf Tage zurück. Die Plattform-Einträge seit dem 12.11. sind API-Themen (Managed Agents, Text-Wasserzeichen, Linked Billing), keine Verbrauchermodell-Starts und keine Reset-Anlässe.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -607,6 +607,19 @@
   {
    "date": "2026-11-20",
    "summary": "Tagesprüfung: Kein neuer Reset, kein neues Modell, keine Konditionsänderung. Full Reset (10.12.) und Duet-Resets (15.12.) laufen unverändert. News, Hilfecenter und Plattform-Notes ohne Reset-relevante Neuerung. Archive unverändert (Stand 19.11.).",
+   "checked_sources": [
+    "help",
+    "promo",
+    "duet",
+    "news",
+    "platform",
+    "archive",
+    "digest"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "summary": "Tagesprüfung: Kein neuer Reset, kein neues Modell, keine Konditionsänderung. Full Reset (10.12.) und Duet-Resets (15.12.) laufen unverändert; Fristen im Hilfecenter unverändert. News, Plattform-Notes (zuletzt 17.11.) und beide Reset-Archive (zuletzt 10.11.) ohne Reset-relevante Neuerung. Externe Sekundärberichte (limitdigest, TokenPost) bestätigen unverändert die 10.12.-Frist 22:00 UTC = 23:00 Berlin.",
    "checked_sources": [
     "help",
     "promo",
