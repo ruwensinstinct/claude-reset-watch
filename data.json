@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "as_of": "2026-11-26T10:49:00+01:00",
+ "as_of": "2026-11-27T10:55:00+01:00",
  "timezone": "Europe/Berlin",
  "forecast": {
   "label": "Offen. Nicht seriös bezifferbar.",
-  "text": "Die Tagesprüfung vom 26.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen noch: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
+  "text": "Die Tagesprüfung vom 27.11. fand keinen konkreten Termin oder belastbaren Vorabhinweis für einen weiteren allgemeinen Reset. Zwei Reset-Angebote laufen noch: der Full Reset (bis 10.12.) und die Duet-Resets der US-Preview (bis 15.12.). Angekündigte Verfügbarkeit ist keine Prognose für einen weiteren Reset.",
   "release": "Kein nächster Modelltermin bestätigt.",
-  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, siebzehn Tage zurück. Die Plattform-Einträge seit dem 12.11. sind API-Themen (Managed Agents, Text-Wasserzeichen, Linked Billing, Opus-4.5-Deprecation, Analytics-Fix), keine Verbrauchermodell-Starts und keine Reset-Anlässe. Gerüchte zu Folgemodellen kursieren ohne offizielle Bestätigung.",
+  "release_text": "Der jüngste in den geprüften offiziellen Quellen gefundene Modellstart bleibt Fable 5.2 / Mythos 5.2 vom 9. November 2026, achtzehn Tage zurück. Die Plattform-Einträge seit dem 12.11. sind API- und Enterprise-Themen (Managed Agents, Text-Wasserzeichen, Linked Billing, Opus-4.5-Deprecation, Analytics-Fixes, Enterprise Frontier Safeguards), keine Verbrauchermodell-Starts und keine Reset-Anlässe. Gerüchte zu Folgemodellen kursieren ohne offizielle Bestätigung.",
   "method": "Modellstarts sind ein möglicher Anlass, kein Fahrplan. Die Fable-5.2-Aktion belegt einen konkreten Zusammenhang. Der Full Reset am Folgetag nennt zusätzlich Verbrauchsprobleme. Die historische Stichprobe ist unvollständig und überwiegend noch sekundär belegt. Deshalb gibt es hier keinen scheinpräzisen Tages-Prozentwert."
  },
  "offers": [
@@ -685,6 +685,19 @@
   {
    "date": "2026-11-26",
    "summary": "Tagesprüfung: Kein neuer Reset, kein neues Verbrauchermodell, keine Konditionsänderung. Full Reset (10.12.) und Duet-Resets (15.12.) laufen unverändert; Fristen im Hilfecenter unverändert. News unverändert (letzter Modellstart 9.11.). Keine neuen Plattform-Einträge seit 24.11. Beide Reset-Archive unverändert (zuletzt 10.11.).",
+   "checked_sources": [
+    "help",
+    "promo",
+    "duet",
+    "news",
+    "platform",
+    "archive",
+    "digest"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "summary": "Tagesprüfung: Kein neuer Reset, kein neues Verbrauchermodell, keine Konditionsänderung. Full Reset (10.12.) und Duet-Resets (15.12.) laufen unverändert; Fristen im Hilfecenter unverändert. News unverändert (letzter Modellstart 9.11.). Plattform-Notes ohne neuen Eintrag seit 23.11. Beide Reset-Archive unverändert (zuletzt 10.11.); limitdigest-Stand 26.11.: nichts geplant. Ein Thanksgiving-Erinnerungspost vom 26.11. wiederholt Bekanntes (Full Reset bis 10.12., monatliche API-Credits für Max/Ultra, Fable-Resets bis 8.3.) - Credits sind kein Reset.",
    "checked_sources": [
     "help",
     "promo",
